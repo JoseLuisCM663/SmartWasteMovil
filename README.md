@@ -408,7 +408,7 @@ Los mockups son diseños de alta fidelidad que muestran la apariencia visual fin
 ## 📱 Prototipo Navegacional
 El prototipo navegacional es una versión interactiva del diseño que permite simular la experiencia real del usuario. Muestra la navegación entre pantallas, transiciones, botones funcionales y el flujo completo de uso de la aplicación, tal como si fuera una app real. 
 
-Link de Figma: 
+Link de Figma: [https://www.figma.com/design/kSlMuqNKcfwQZLgKeLq3T7/SmartWasteMovil?node-id=1001-4&p=f&t=5lqGL4aMyiOXImRW-0](https://www.figma.com/design/kSlMuqNKcfwQZLgKeLq3T7/SmartWasteMovil?node-id=1001-4&p=f&t=5lqGL4aMyiOXImRW-0)
 
 ---
 
