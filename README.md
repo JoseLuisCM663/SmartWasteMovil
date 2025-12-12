@@ -543,6 +543,9 @@ El prototipo navegacional es una versión interactiva del diseño que permite si
 
 Link de Figma: [https://www.figma.com/design/kSlMuqNKcfwQZLgKeLq3T7/SmartWasteMovil?node-id=1001-4&p=f&t=5lqGL4aMyiOXImRW-0](https://www.figma.com/design/kSlMuqNKcfwQZLgKeLq3T7/SmartWasteMovil?node-id=1001-4&p=f&t=5lqGL4aMyiOXImRW-0)
 
+* Prototipo (Acerca de SmartWaste)
+  
+![Prototipo  (Acerca de SmartWaste)](Prototipo.png)
 ---
 
 ## 🔗 API
