@@ -305,22 +305,22 @@ Los wireframes son representaciones de baja o media fidelidad que muestran la es
 
 * Detalle de Contenedor
   
-![Detalle de Contenedor](Prototipos/MovilMP/Frontend/Wireframes/detalle_contenedor.png)
+![Detalle de Contenedor](Prototipos/MovilMP/Frontend/Wireframes/detalle_contenedor.PNG)
 
 
 * Dashboard Principal
   
-![Dashboard Principal](Prototipos/MovilMP/Frontend/Wireframes/dashboard.png)
+![Dashboard Principal](Prototipos/MovilMP/Frontend/Wireframes/dashboard.PNG)
 
 
 * Bitacora de Recoleción
   
-![Bitacora de Recoleción](Prototipos/MovilMP/Frontend/Wireframes/Bitacora_de_recoleccion.png)
+![Bitacora de Recoleción](Prototipos/MovilMP/Frontend/Wireframes/Bitacora_de_recoleccion.PNG)
 
 
 * About Us (Acerca de SmartWaste)
   
-![About Us (Acerca de SmartWaste)](Prototipos/MovilMP/Frontend/Wireframes/acerca_de_nosotros.png)
+![About Us (Acerca de SmartWaste)](Prototipos/MovilMP/Frontend/Wireframes/acerca_de_nosotros.PNG)
 
 ---
 
