@@ -404,7 +404,7 @@ Los wireframes son representaciones de baja o media fidelidad que muestran la es
 
 * Bitacora de Recoleción
   
-![Bitacora de Recoleción](Prototipos\MovilMP\Frontend\Wireframes\BItacora_de_recoleccion.PNG)
+![Bitacora de Recoleción](Prototipos/MovilMP/Frontend/Wireframes/BItacora_de_recoleccion.PNG)
 **Bitácora** – Lista y filtros.
 
 
@@ -499,7 +499,7 @@ Los mockups son diseños de alta fidelidad que muestran la apariencia visual fin
 
 * Bitacora de Recoleción
   
-![Bitacora de Recoleción](Prototipos\MovilMP\Frontend\Mockups\BItacora_de_recoleccion.PNG)
+![Bitacora de Recoleción](Prototipos/MovilMP/Frontend/Mockups/BItacora_de_recoleccion.PNG)
 **Bitácora Final** – Lista estilizada con filtros.
 
 
