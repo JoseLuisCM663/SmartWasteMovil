@@ -328,6 +328,80 @@ Los wireframes son representaciones de baja o media fidelidad que muestran la es
 
 Los mockups son diseños de alta fidelidad que muestran la apariencia visual final de la aplicación. Incluyen colores, tipografías, íconos, estilos y componentes reales. Permiten visualizar cómo se verá la app antes de programarla.
 
+* Splash Screen
+  
+![Splash Screen](Prototipos/MovilMP/Frontend/Mockups/Splash_Screen.png)
+
+
+* Registro de Usuario.
+  
+![RegistroUsuario.jpeg](Prototipos/MovilMP/Frontend/Mockups/Registro_Usuario.png)
+
+
+* Predición de Eficiencia
+  
+![Predición de Eficiencia](Prototipos/MovilMP/Frontend/Mockups/PrediciónEficiencia.png)
+
+
+* Mapa
+  
+![Mapa](Prototipos/MovilMP/Frontend/Mockups/Mapa.png)
+
+
+* Login Screen
+  
+![Login Screen](Prototipos/MovilMP/Frontend/Mockups/Login_Screen.png)
+
+
+* LoadingScreen
+  
+![LoadingScreen](Prototipos/MovilMP/Frontend/Mockups/Loading_Screen.png)
+
+
+* Historial de Lecturas
+  
+![Historial de Lecturas](Prototipos/MovilMP/Frontend/Mockups/Historial_Lecturas.png)
+
+
+* Gestion de Sensores
+  
+![Gestion de Sensores](Prototipos/MovilMP/Frontend/Mockups/GestionSensores.png)
+
+
+* Gestión de Rutas
+  
+![Gestión de Rutas](Prototipos/MovilMP/Frontend/Mockups/gestion_rutas.png)
+
+
+* Gestión de Contenedores
+  
+![Gestión de Contenedores](Prototipos/MovilMP/Frontend/Mockups/GestionContenedores.png)
+
+
+* Detalle de ruta
+  
+![Detalle de ruta](Prototipos/MovilMP/Frontend/Mockups/detalle_ruta.png)
+
+
+* Detalle de Contenedor
+  
+![Detalle de Contenedor](Prototipos/MovilMP/Frontend/Mockups/detalle_contenedor.PNG)
+
+
+* Dashboard Principal
+  
+![Dashboard Principal](Prototipos/MovilMP/Frontend/Mockups/dashboard.PNG)
+
+
+* Bitacora de Recoleción
+  
+![Bitacora de Recoleción](Prototipos/MovilMP/Frontend/Mockups/Bitacora_de_recoleccion.PNG)
+
+
+* About Us (Acerca de SmartWaste)
+  
+![About Us (Acerca de SmartWaste)](Prototipos/MovilMP/Frontend/Mockups/acerca_de_nosotros.PNG)
+
 
 ---
 
