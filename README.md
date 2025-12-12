@@ -197,7 +197,7 @@ Los sketches son dibujos rápidos hechos a mano que permiten visualizar las prim
 
 
 * Splash Screen
-![Splash Screen](Prototipos\MovilMP\Frontend\Sketches\SplashScreen.jpeg)
+![Splash Screen](Prototipos/MovilMP/Frontend/Sketches/SplashScreen.jpeg)
 
 * Registro de Usuario.
 ![RegistroUsuario.jpeg](Prototipos\MovilMP\Frontend\Sketches\RegistroUsuario.jpeg)
