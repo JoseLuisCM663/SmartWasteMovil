@@ -171,18 +171,79 @@ La propuesta consiste en:
 
 ## 🧠 Historias de Usuario
 
-1. HU01: Como recolector, quiero ver la ruta asignada para optimizar mi trabajo.
-2. HU02: Como supervisor, quiero ver el estado de los contenedores en tiempo real.
-3. HU03: Como recolector, deseo recibir alertas cuando un contenedor esté lleno.
-4. HU04: Como administrador, quiero agregar nuevos contenedores desde el panel.
-5. HU05: Como recolector, quiero reportar incidencias.
-6. HU06: Como supervisor, quiero generar reportes históricos.
-7. HU07: Como administrador, deseo gestionar usuarios.
-8. HU08: Como recolector, deseo acceder rápidamente a los niveles de llenado.
-9. HU09: Como administrador, quiero actualizar información del contenedor.
-10. HU10: Como usuario móvil, quiero tener una interfaz clara y accesible.
 
+1. **HU01 – Visualizar rutas asignadas**
+   *Como recolector, quiero visualizar la ruta de recolección asignada para seguir un recorrido optimizado y reducir tiempos de traslado.*
+   **Criterios de aceptación:**
+
+* La app debe mostrar un mapa con el recorrido completo.
+* El sistema debe actualizar la ruta si un contenedor cambia de estatus.
+
+2. **HU02 – Monitorear contenedores en tiempo real**
+   *Como supervisor, quiero ver el estado de cada contenedor en tiempo real para tomar decisiones operativas más eficientes.*
+   **Criterios de aceptación:**
+
+* Los contenedores deben mostrar nivel de llenado.
+* Debe actualizarse automáticamente sin recargar la vista.
+
+3. **HU03 – Recibir alertas por contenedores llenos**
+   *Como recolector, deseo recibir una notificación cuando un contenedor supere cierto nivel de llenado para priorizar su recolección.*
+   **Criterios de aceptación:**
+
+* Alertas push en tiempo real.
+* Se debe mostrar la ubicación exacta del contenedor crítico.
+
+4. **HU04 – Añadir contenedores nuevos**
+   *Como administrador, quiero agregar nuevos contenedores al sistema para mantener actualizada la infraestructura de recolección.*
+   **Criterios de aceptación:**
+
+* Registro mediante formulario.
+* Validación de ubicación mediante mapa.
+
+5. **HU05 – Reportar incidencias**
+   *Como recolector, quiero registrar incidencias (contenedor dañado, obstrucción, vandalismo) para mantener el control operativo.*
+   **Criterios de aceptación:**
+
+* Agregar fotografía.
+* Envío de ubicación automática.
+
+6. **HU06 – Visualizar reportes históricos**
+   *Como supervisor, quiero consultar reportes semanales y mensuales para evaluar el desempeño de la recolección.*
+   **Criterios de aceptación:**
+
+* Gráficas dinámicas.
+* Exportación en PDF.
+
+7. **HU07 – Gestionar usuarios**
+   *Como administrador, quiero gestionar (crear, editar, desactivar) los usuarios del sistema para controlar el acceso.*
+   **Criterios de aceptación:**
+
+* Asignación de roles.
+* Control de permisos.
+
+8. **HU08 – Consultar niveles de llenado**
+   *Como recolector, deseo acceder rápidamente a los niveles de llenado de los contenedores para planificar el recorrido.*
+   **Criterios de aceptación:**
+
+* Indicadores por colores (verde, amarillo, rojo).
+* Búsqueda por número o zona.
+
+9. **HU09 – Actualizar datos del contenedor**
+   *Como administrador, quiero actualizar la ubicación o estado de un contenedor para mantener la base de datos al día.*
+   **Criterios de aceptación:**
+
+* Validar campos obligatorios.
+* Guardar historial de cambios.
+
+10. **HU10 – Interfaz fácil de usar**
+    *Como usuario móvil, quiero una aplicación sencilla e intuitiva para navegar sin dificultad aun sin capacitación técnica.*
+    **Criterios de aceptación:**
+
+* Botones grandes y visibles.
+* Flujo de navegación lineal.
+  
 ---
+
 ### Lista de Tecnologias
 | Tecnología      | Descripción                                                                      |
 |-----------------|----------------------------------------------------------------------------------|
@@ -198,48 +259,63 @@ Los sketches son dibujos rápidos hechos a mano que permiten visualizar las prim
 
 * Splash Screen
 ![Splash Screen](Prototipos/MovilMP/Frontend/Sketches/SplashScreen.jpeg)
+**Splash Screen** – Presenta el logotipo y establece la identidad inicial.
 
 * Registro de Usuario.
 ![RegistroUsuario.jpeg](Prototipos/MovilMP/Frontend/Sketches/RegistroUsuario.jpeg)
+**Registro de Usuario** – Muestra los campos básicos del formulario.
 
 * Predición de Eficiencia
 ![Predición de Eficiencia](Prototipos/MovilMP/Frontend/Sketches/PrediciónEficiencia.jpeg)
+**Predicción de Eficiencia** – Representa la pantalla con gráficas predictivas.
 
 * Mapa
 ![Mapa](Prototipos/MovilMP/Frontend/Sketches/Mapa.jpeg)
+**Mapa** – Vista preliminar donde se mostrarán zonas y contenedores.
 
 * Login Screen
 ![Login Screen](Prototipos/MovilMP/Frontend/Sketches/LoginScreen.jpeg)
+**Login** – Diseño básico del acceso a la app.
 
 * LoadingScreen
 ![LoadingScreen](Prototipos/MovilMP/Frontend/Sketches/LoadingScreen.jpeg)
+**Loading** – Indicador de carga previo a entrar al sistema.
 
 * Historial de Lecturas
 ![Historial de Lecturas](Prototipos/MovilMP/Frontend/Sketches/HistorialLecturas.jpeg)
+**Historial de Lecturas** – Lista primaria de registros del sensor.
 
 * Gestion de Sensores
 ![Gestion de Sensores](Prototipos/MovilMP/Frontend/Sketches/GestionSensores.jpeg)
+**Gestión de Sensores** – Administración inicial de sensores IoT.
 
 * Gestión de Rutas
 ![Gestión de Rutas](Prototipos/MovilMP/Frontend/Sketches/GestiónRutas.jpeg)
+**Gestión de Rutas** – Crear/modificar rutas con trazos iniciales.
 
 * Gestión de Contenedores
 ![Gestión de Contenedores](Prototipos/MovilMP/Frontend/Sketches/GestiónContenedores.jpeg)
+**Gestión de Contenedores** – Pantalla para CRUD de contenedores.
 
 * Detalle de ruta
 ![Detalle de ruta](Prototipos/MovilMP/Frontend/Sketches/Detalleruta.jpeg)
+**Detalle de Ruta** – Vista técnica de una ruta seleccionada.
 
 * Detalle de Contenedor
 ![Detalle de Contenedor](Prototipos/MovilMP/Frontend/Sketches/DetalleContenedor.jpeg)
+**Detalle de Contenedor** – Información completa de un contenedor.
 
 * Dashboard Principal
 ![Dashboard Principal](Prototipos/MovilMP/Frontend/Sketches/DashboardPrincipal.jpeg)
+**Dashboard Principal** – Métricas generales rápidas.
 
 * Bitacora de Recoleción
 ![Bitacora de Recoleción](Prototipos/MovilMP/Frontend/Sketches/BitacoraRecoleción.jpeg)
+**Bitácora de Recolección** – Lista de actividades.
 
 * About Us (Acerca de SmartWaste)
 ![About Us (Acerca de SmartWaste)](Prototipos/MovilMP/Frontend/Sketches/AboutUs.jpeg)
+**About Us** – Información sobre la empresa.
 
 
 ---
@@ -251,76 +327,91 @@ Los wireframes son representaciones de baja o media fidelidad que muestran la es
 * Splash Screen
   
 ![Splash Screen](Prototipos/MovilMP/Frontend/Wireframes/Splash_Screen.png)
+**Wireframe Splash** – Estructura del logo y elementos iniciales.
 
 
 * Registro de Usuario.
   
 ![RegistroUsuario.jpeg](Prototipos/MovilMP/Frontend/Wireframes/Registro_Usuario.png)
+**Registro** – Organización de campos sin estilizar.
 
 
 * Predición de Eficiencia
   
 ![Predición de Eficiencia](Prototipos/MovilMP/Frontend/Wireframes/PrediciónEficiencia.png)
+**Predicción** – Ubicación de gráficas y KPIs.
 
 
 * Mapa
   
 ![Mapa](Prototipos/MovilMP/Frontend/Wireframes/Mapa.png)
+**Mapa** – Distribución del mapa y botones.
 
 
 * Login Screen
   
 ![Login Screen](Prototipos/MovilMP/Frontend/Wireframes/Login_Screen.png)
+**Login** – Campos alineados y jerarquía visual.
 
 
 * LoadingScreen
   
 ![LoadingScreen](Prototipos/MovilMP/Frontend/Wireframes/Loading_Screen.png)
+**Loading** – Representación del estado de espera.
 
 
 * Historial de Lecturas
   
 ![Historial de Lecturas](Prototipos/MovilMP/Frontend/Wireframes/Historial_Lecturas.png)
+**Historial** – Lista estructurada de lecturas.
 
 
 * Gestion de Sensores
   
 ![Gestion de Sensores](Prototipos/MovilMP/Frontend/Wireframes/GestionSensores.png)
+**Sensores** – Distribución de tarjetas de sensores.
 
 
 * Gestión de Rutas
   
 ![Gestión de Rutas](Prototipos/MovilMP/Frontend/Wireframes/gestion_rutas.png)
+**Rutas** – Estructura del módulo CRUD.
 
 
 * Gestión de Contenedores
   
 ![Gestión de Contenedores](Prototipos/MovilMP/Frontend/Wireframes/GestionContenedores.png)
+**Contenedores** – Tabla o tarjetas funcionales.
 
 
 * Detalle de ruta
   
 ![Detalle de ruta](Prototipos/MovilMP/Frontend/Wireframes/detalle_ruta.png)
+**Detalle Ruta** – Sección informativa.
 
 
 * Detalle de Contenedor
   
 ![Detalle de Contenedor](Prototipos/MovilMP/Frontend/Wireframes/detalle_contenedor.PNG)
+**Detalle Contenedor** – Sección informativa técnica.
 
 
 * Dashboard Principal
   
 ![Dashboard Principal](Prototipos/MovilMP/Frontend/Wireframes/dashboard.PNG)
+**Dashboard** – Gráficas en disposición organizada.
 
 
 * Bitacora de Recoleción
   
-![Bitacora de Recoleción](Prototipos/MovilMP/Frontend/Wireframes/Bitacora_de_recoleccion.PNG)
+![Bitacora de Recoleción](Prototipos\MovilMP\Frontend\Wireframes\BItacora_de_recoleccion.PNG)
+**Bitácora** – Lista y filtros.
 
 
 * About Us (Acerca de SmartWaste)
   
 ![About Us (Acerca de SmartWaste)](Prototipos/MovilMP/Frontend/Wireframes/acerca_de_nosotros.PNG)
+**About Us** – Información institucional.
 
 ---
 
@@ -331,76 +422,91 @@ Los mockups son diseños de alta fidelidad que muestran la apariencia visual fin
 * Splash Screen
   
 ![Splash Screen](Prototipos/MovilMP/Frontend/Mockups/Splash_Screen.png)
+**Splash Final** – Logo con identidad corporativa.
 
 
 * Registro de Usuario.
   
 ![RegistroUsuario.jpeg](Prototipos/MovilMP/Frontend/Mockups/Registro_Usuario.png)
+**Registro Final** – Pantalla profesional con colores reales.
 
 
 * Predición de Eficiencia
   
 ![Predición de Eficiencia](Prototipos/MovilMP/Frontend/Mockups/PrediciónEficiencia.png)
+**Predicción Final** – Gráficas detalladas estilo final.
 
 
 * Mapa
   
 ![Mapa](Prototipos/MovilMP/Frontend/Mockups/Mapa.png)
+**Mapa Final** – Marcadores reales y diseño estilizado.
 
 
 * Login Screen
   
 ![Login Screen](Prototipos/MovilMP/Frontend/Mockups/Login_Screen.png)
+**Login Final** – Interfaz moderna y limpia.
 
 
 * LoadingScreen
   
 ![LoadingScreen](Prototipos/MovilMP/Frontend/Mockups/Loading_Screen.png)
+**Loading Final** – Animaciones listas para producción.
 
 
 * Historial de Lecturas
   
 ![Historial de Lecturas](Prototipos/MovilMP/Frontend/Mockups/Historial_Lecturas.png)
+**Lecturas Final** – Tabla/grilla estilizada.
 
 
 * Gestion de Sensores
   
 ![Gestion de Sensores](Prototipos/MovilMP/Frontend/Mockups/GestionSensores.png)
+**Sensores Final** – Tarjetas visuales completas.
 
 
 * Gestión de Rutas
   
 ![Gestión de Rutas](Prototipos/MovilMP/Frontend/Mockups/gestion_rutas.png)
+**Rutas Final** – Elementos definitivos de navegación.
 
 
 * Gestión de Contenedores
   
 ![Gestión de Contenedores](Prototipos/MovilMP/Frontend/Mockups/GestionContenedores.png)
+**Contenedores Final** – Vista completa con iconografía.
 
 
 * Detalle de ruta
   
 ![Detalle de ruta](Prototipos/MovilMP/Frontend/Mockups/detalle_ruta.png)
+**Detalle Ruta Final** – Información técnica con diseño final.
 
 
 * Detalle de Contenedor
   
 ![Detalle de Contenedor](Prototipos/MovilMP/Frontend/Mockups/detalle_contenedor.PNG)
+**Detalle Contenedor Final** – Componentes visuales completos.
 
 
 * Dashboard Principal
   
 ![Dashboard Principal](Prototipos/MovilMP/Frontend/Mockups/dashboard.PNG)
+**Dashboard Final** – KPIs visuales con colores corporativos.
 
 
 * Bitacora de Recoleción
   
-![Bitacora de Recoleción](Prototipos/MovilMP/Frontend/Mockups/Bitacora_de_recoleccion.PNG)
+![Bitacora de Recoleción](Prototipos\MovilMP\Frontend\Mockups\BItacora_de_recoleccion.PNG)
+**Bitácora Final** – Lista estilizada con filtros.
 
 
 * About Us (Acerca de SmartWaste)
   
 ![About Us (Acerca de SmartWaste)](Prototipos/MovilMP/Frontend/Mockups/acerca_de_nosotros.PNG)
+**About Us Final** – Pantalla informativa final.
 
 
 ---
@@ -415,15 +521,6 @@ Link de Figma: [https://www.figma.com/design/kSlMuqNKcfwQZLgKeLq3T7/SmartWasteMo
 ## 🔗 API
 
 Repositorio Backend: [https://github.com/JoseLuisCM663/Smartwaste_Api](https://github.com/JoseLuisCM663/Smartwaste_Api)
-
----
-
-## 📲 Prototipo Programado (Avances)
-
----
-
-## 📝 Presentación Final
-
 
 ---
 
