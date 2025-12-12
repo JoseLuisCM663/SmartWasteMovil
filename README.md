@@ -73,8 +73,8 @@ La propuesta consiste en:
    - Sensores ultrasónicos o infrarrojos para medir el nivel de llenado.  
    - Transmisión de datos en tiempo real hacia una plataforma central.  
 
-2. **Plataforma Web (Dashboard)**  
-   - Visualización del estado de cada contenedor en un mapa interactivo.  
+2. **Aplicación Movil**  
+   - Visualización del estado de cada contenedor en una interfaz interactiva.  
    - Alertas automáticas cuando un contenedor alcanza un umbral crítico de llenado.  
    - Reportes históricos para analizar patrones de generación de residuos.  
 
@@ -140,8 +140,8 @@ La propuesta consiste en:
 
 ## 📅 Diagrama de Gantt
 
-![gantt](https://github.com/juuaaann456/imagenes/blob/60d686ad19d3823662800c36d28a34da9b9a95bd/imagenes/Imagen%20de%20WhatsApp%202025-08-18%20a%20las%2016.58.06_bde5a783.jpg)
-<HR>
+![CronogramaProyecto](CronogramaProyecto.png)
+
 ---
 
 ## 📘 Requerimientos Funcionales
@@ -193,23 +193,115 @@ La propuesta consiste en:
 | ![README](https://img.shields.io/badge/README-Documentation-lightgrey) | Archivo de documentación para el proyecto |
 
 ## ✏ Sketches
+Los sketches son dibujos rápidos hechos a mano que permiten visualizar las primeras ideas del diseño. Se utilizan para definir la estructura general de las pantallas, la distribución de elementos y el flujo básico, antes de crear wireframes o mockups más detallados.
 
+
+* Splash Screen
+![Splash Screen](Prototipos\MovilMP\Frontend\Sketches\SplashScreen.jpeg)
+
+* Registro de Usuario.
+![RegistroUsuario.jpeg](Prototipos\MovilMP\Frontend\Sketches\RegistroUsuario.jpeg)
+
+* Predición de Eficiencia
+![Predición de Eficiencia](Prototipos\MovilMP\Frontend\Sketches\PrediciónEficiencia.jpeg)
+
+* Mapa
+![Mapa](Prototipos\MovilMP\Frontend\Sketches\Mapa.jpeg)
+
+* Login Screen
+![Login Screen](Prototipos\MovilMP\Frontend\Sketches\LoginScreen.jpeg)
+
+* LoadingScreen
+![LoadingScreen](Prototipos\MovilMP\Frontend\Sketches\LoadingScreen.jpeg)
+
+* Historial de Lecturas
+![Historial de Lecturas](Prototipos\MovilMP\Frontend\Sketches\HistorialLecturas.jpeg)
+
+* Gestion de Sensores
+![Gestion de Sensores](Prototipos\MovilMP\Frontend\Sketches\GestionSensores.jpeg)
+
+* Gestión de Rutas
+![Gestión de Rutas](Prototipos\MovilMP\Frontend\Sketches\GestiónRutas.jpeg)
+
+* Gestión de Contenedores
+![Gestión de Contenedores](Prototipos\MovilMP\Frontend\Sketches\GestiónContenedores.jpeg)
+
+* Detalle de ruta
+![Detalle de ruta](Prototipos\MovilMP\Frontend\Sketches\Detalleruta.jpeg)
+
+* Detalle de Contenedor
+![Detalle de Contenedor](Prototipos\MovilMP\Frontend\Sketches\DetalleContenedor.jpeg)
+
+* Dashboard Principal
+![Dashboard Principal](Prototipos\MovilMP\Frontend\Sketches\DashboardPrincipal.jpeg)
+
+* Bitacora de Recoleción
+![Bitacora de Recoleción](Prototipos\MovilMP\Frontend\Sketches\BitacoraRecoleción.jpeg)
+
+* About Us (Acerca de SmartWaste)
+![About Us (Acerca de SmartWaste)](Prototipos\MovilMP\Frontend\Sketches\AboutUs.jpeg)
 
 
 ---
 
 ## 📐 Wireframes
 
+Los wireframes son representaciones de baja o media fidelidad que muestran la estructura funcional de cada pantalla. Se enfocan en la colocación de elementos, navegación y jerarquía visual, sin incluir colores finales ni diseño estético. Sirven como base para validar el funcionamiento y flujo del usuario.
 
 ---
 
 ## 🎨 Mockups
 
+Los mockups son diseños de alta fidelidad que muestran la apariencia visual final de la aplicación. Incluyen colores, tipografías, íconos, estilos y componentes reales. Permiten visualizar cómo se verá la app antes de programarla.
 
+* Splash Screen
+![Splash Screen](Prototipos\MovilMP\Frontend\Mockups\Splash_Screen.png)
 
+* Registro de Usuario.
+![RegistroUsuario.jpeg](Prototipos\MovilMP\Frontend\Mockups\Registro_Usuario.png)
+
+* Predición de Eficiencia
+![Predición de Eficiencia](Prototipos\MovilMP\Frontend\Mockups\PrediciónEficiencia.png)
+
+* Mapa
+![Mapa](Prototipos\MovilMP\Frontend\Mockups\Mapa.png)
+
+* Login Screen
+![Login Screen](Prototipos\MovilMP\Frontend\Mockups\LoginScreen.jpeg)
+
+* LoadingScreen
+![LoadingScreen](Prototipos\MovilMP\Frontend\Mockups\LoadingScreen.jpeg)
+
+* Historial de Lecturas
+![Historial de Lecturas](Prototipos\MovilMP\Frontend\Mockups\HistorialLecturas.jpeg)
+
+* Gestion de Sensores
+![Gestion de Sensores](Prototipos\MovilMP\Frontend\Mockups\GestionSensores.jpeg)
+
+* Gestión de Rutas
+![Gestión de Rutas](Prototipos\MovilMP\Frontend\Mockups\GestiónRutas.jpeg)
+
+* Gestión de Contenedores
+![Gestión de Contenedores](Prototipos\MovilMP\Frontend\Mockups\GestiónContenedores.jpeg)
+
+* Detalle de ruta
+![Detalle de ruta](Prototipos\MovilMP\Frontend\Mockups\Detalleruta.jpeg)
+
+* Detalle de Contenedor
+![Detalle de Contenedor](Prototipos\MovilMP\Frontend\Mockups\DetalleContenedor.jpeg)
+
+* Dashboard Principal
+![Dashboard Principal](Prototipos\MovilMP\Frontend\Mockups\DashboardPrincipal.jpeg)
+
+* Bitacora de Recoleción
+![Bitacora de Recoleción](Prototipos\MovilMP\Frontend\Mockups\BitacoraRecoleción.jpeg)
+
+* About Us (Acerca de SmartWaste)
+![About Us (Acerca de SmartWaste)](Prototipos\MovilMP\Frontend\Mockups\AboutUs.jpeg)
 ---
 
 ## 📱 Prototipo Navegacional
+El prototipo navegacional es una versión interactiva del diseño que permite simular la experiencia real del usuario. Muestra la navegación entre pantallas, transiciones, botones funcionales y el flujo completo de uso de la aplicación, tal como si fuera una app real. 
 
 Link de Figma: 
 
