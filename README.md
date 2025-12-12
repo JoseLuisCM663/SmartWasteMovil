@@ -1,17 +1,58 @@
-# SmartWasteMovil
-versión móvil del sistema smartwaste para la gestión de residuos urbanos.
-<HR>
+# SmartWasteMovil – Documentación Completa
 
-### 📌 Descripción.
-Presentamos SmartWaste, una solución integral para la gestión inteligente de residuos urbanos. Este proyecto busca transformar la recolección de basura, haciéndola más eficiente sostenible y adaptada a las necesidades de las ciudades modernas.
-<HR>
+Versión móvil del sistema SmartWaste para la gestión de residuos urbanos.
 
-### 🏢 Identidad Gráfica.
+---
+
+## 📌 Descripción General del Prototipo
+
+SmartWasteMovil es una aplicación móvil diseñada para optimizar la gestión de residuos urbanos mediante el uso de sensores IoT, análisis de datos en tiempo real y herramientas digitales accesibles para personal operativo y autoridades municipales. La plataforma integra una aplicación móvil, un dashboard web y una API avanzada que permite gestionar contenedores, rutas de recolección, notificaciones y monitoreo en vivo del estado de los residuos.
+
+Este prototipo móvil permite al personal de recolección visualizar rutas optimizadas, recibir alertas de contenedores llenos y reportar incidencias directamente desde el campo. Con ello, se busca reducir costos operativos, mejorar los tiempos de recolección y contribuir a la sostenibilidad de la ciudad.
+
+SmartWasteMovil forma parte del ecosistema SmartWaste, una solución integral enfocada en mejorar la eficiencia, transparencia y sostenibilidad de los servicios de recolección urbana.
+
+---
+
+## 🎯 Objetivo General
+
+Diseñar e implementar un prototipo móvil que facilite la operación del sistema SmartWaste, permitiendo al personal acceder a información en tiempo real, gestionar rutas y monitorear contenedores mediante conectividad con sensores IoT.
+
+---
+
+## ✅ Objetivos Específicos
+
+1. Integrar sensores IoT que registren el estado y nivel de llenado de contenedores.
+2. Implementar una app móvil para visualizar rutas óptimas y alertas.
+3. Desarrollar un panel interactivo para autoridades con métricas en tiempo real.
+4. Automatizar procesos de monitoreo y rutas de recolección.
+5. Realizar pruebas de funcionamiento en escenarios simulados para validar el prototipo.
+
+---
+
+## 🏢 Identidad Gráfica
+
+### Logos
 
 | Logo del Producto | Logo de la Empresa |
 |-----------------------|---------------------|
 | ![producto](https://github.com/juuaaann456/imagenes/blob/60d686ad19d3823662800c36d28a34da9b9a95bd/imagenes/logoo.png) | ![empresa](https://github.com/juuaaann456/imagenes/blob/60d686ad19d3823662800c36d28a34da9b9a95bd/imagenes/Imagen%20de%20WhatsApp%202025-08-18%20a%20las%2017.13.11_fc17be83.jpg) |
 <HR>
+
+
+### Paleta de Colores
+
+* Verde #2ECC71 – Sustentabilidad
+* Azul #3498DB – Tecnología
+* Gris oscuro #2C3E50 – Profesionalismo
+* Blanco #ECF0F1 – Limpieza
+
+### Tipografías
+
+* **Montserrat** – Títulos y encabezados
+* **Roboto** – Texto del cuerpo
+
+---
 
 ### 📝 Planteamiento del problema.
 La gestión de residuos sólidos urbanos es un desafío creciente para comunidades de todos los tamaños. En México, se generan más de **120 mil toneladas de basura diariamente**, de las cuales una parte significativa no se recolecta de manera eficiente.  
@@ -47,24 +88,12 @@ La propuesta consiste en:
    - Contribución a los **ODS 11 (Ciudades sostenibles)** y **ODS 12 (Consumo responsable)**.  
 <HR>
 
-### 🎯 Objetivo General.
-Nuestro objetivo principal es diseñar e implementar una solución inteligente para la gestión de residuos urbanos. Integrando sensores IoT y una plataforma digital (aplicación móvil y panel web), permitiremos la recolección de datos en tiempo real, optimización de rutas y visualización del estado de los contenedores para mejorar drásticamente la eficiencia del sistema de recolección.
-<HR>
-
-### ✅ Objetivos Especificos.
-
-1.- **Integración de Sensores IoT:** Implementar sensores en contenedores para detectar niveles de llenado. <br>
-2.- **Desarrollo de App Móvil:** Crear una aplicación para notificar rutas óptimas al personal de recolección. <br>
-3.- **Panel Web Interactivo:** Diseñar un panel para autoridades municipales con datos visuales en tiempo real. <br>
-4.- **Automatización de Procesos:** Reducir costos operativos y tiempos de recolección mediante la automatización.<br>
-5.- **Evaluación y Pruebas**: Validar el sistema con pruebas exhaustivas en un entorno urbano simulado. <br>
-
-
-<HR>
+---
 
 ### 👥 Organigrama de Trabajo.
 ![imagen](https://github.com/JoseLuisCM663/Smartwaste_Api_Documentacion/blob/86cdf40d21da69aaa7d1eef4ace5a0b3baa81c7a/imagenes/WhatsApp%20Image%202025-08-14%20at%201.55.13%20PM.jpeg)
 <HR>
+---
 
 ### 👥 Tabla de Colaboradores.
 
@@ -74,11 +103,86 @@ Nuestro objetivo principal es diseñar e implementar una solución inteligente p
 | Juan Alberto Vazquez Hernandez | Desarrollador Frontend       | [@juuaaann456](https://github.com/juuaaann456)           |  
 | Omar Lemuel Espejel Lira       | Desarrollador Database       | [@lemuel-26](https://github.com/lemuel-26)             |  
 | Zamira Cuevas Zamora   | Documentador           | [ZamyCuevas](https://github.com/ZamyCuevas)         |  
+---
 
-### Diagrama de Gantt
+## 👨‍💻 Contribuciones Detalladas
+
+### Jose Luis Campos Marquez – Backend y CEO
+
+* Arquitectura completa de la API con FastAPI
+* JWT, roles, permisos y seguridad
+* Métricas del sistema y observabilidad
+* CRUD de incidencias y monitoreo
+* Documentación Swagger y ReDoc
+
+### Juan Alberto Vazquez Hernández – Frontend
+
+* Diseño completo en Figma
+* Mockups de alta fidelidad
+* Prototipo navegable
+* Desarrollo en React/Next.js
+* Integración con la API
+
+### Omar Lemuel Espejel Lira – Base de Datos
+
+* Diseño y normalización de MySQL
+* Optimización de consultas
+* Integridad referencial con FK
+* Configuración en Railway
+
+### Zamira Cuevas Zamora – Documentación
+
+* Redacción técnica
+* Diseño visual de documentos
+* Estructura del manual técnico
+
+---
+
+## 📅 Diagrama de Gantt
+
 ![gantt](https://github.com/juuaaann456/imagenes/blob/60d686ad19d3823662800c36d28a34da9b9a95bd/imagenes/Imagen%20de%20WhatsApp%202025-08-18%20a%20las%2016.58.06_bde5a783.jpg)
 <HR>
+---
 
+## 📘 Requerimientos Funcionales
+
+1. RF01: Registrar usuarios con rol asignado.
+2. RF02: Iniciar sesión mediante JWT.
+3. RF03: Consultar lista de contenedores.
+4. RF04: Crear, modificar y eliminar contenedores.
+5. RF05: Consultar sensores y lecturas.
+6. RF06: Generar rutas de recolección.
+7. RF07: Mostrar rutas optimizadas al usuario.
+8. RF08: Recibir alertas por contenedores llenos.
+9. RF09: Registrar incidencias desde la app.
+10. RF10: Visualizar estadísticas en tiempo real.
+
+---
+
+## 📗 Requerimientos No Funcionales
+
+1. RNF01: La app debe responder en menos de 500 ms.
+2. RNF02: La autenticación debe cumplir con estándares JWT.
+3. RNF03: Debe ser compatible con Android 8+.
+4. RNF04: El backend debe soportar 200 solicitudes simultáneas.
+5. RNF05: El almacenamiento de datos debe ser seguro y cifrado.
+
+---
+
+## 🧠 Historias de Usuario
+
+1. HU01: Como recolector, quiero ver la ruta asignada para optimizar mi trabajo.
+2. HU02: Como supervisor, quiero ver el estado de los contenedores en tiempo real.
+3. HU03: Como recolector, deseo recibir alertas cuando un contenedor esté lleno.
+4. HU04: Como administrador, quiero agregar nuevos contenedores desde el panel.
+5. HU05: Como recolector, quiero reportar incidencias.
+6. HU06: Como supervisor, quiero generar reportes históricos.
+7. HU07: Como administrador, deseo gestionar usuarios.
+8. HU08: Como recolector, deseo acceder rápidamente a los niveles de llenado.
+9. HU09: Como administrador, quiero actualizar información del contenedor.
+10. HU10: Como usuario móvil, quiero tener una interfaz clara y accesible.
+
+---
 ### Lista de Tecnologias
 | Tecnología      | Descripción                                                                      |
 |-----------------|----------------------------------------------------------------------------------|
@@ -88,3 +192,44 @@ Nuestro objetivo principal es diseñar e implementar una solución inteligente p
 | ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E) | Lenguaje de programación para la lógica en el frontend y backend |
 | ![README](https://img.shields.io/badge/README-Documentation-lightgrey) | Archivo de documentación para el proyecto |
 
+## ✏ Sketches
+
+
+
+---
+
+## 📐 Wireframes
+
+
+---
+
+## 🎨 Mockups
+
+
+
+---
+
+## 📱 Prototipo Navegacional
+
+Link de Figma: 
+
+---
+
+## 🔗 API
+
+Repositorio Backend: [https://github.com/JoseLuisCM663/Smartwaste_Api](https://github.com/JoseLuisCM663/Smartwaste_Api)
+
+---
+
+## 📲 Prototipo Programado (Avances)
+
+---
+
+## 📝 Presentación Final
+
+
+---
+
+## 🧩 Conclusiones
+
+El desarrollo de SmartWasteMovil permitió comprender el valor del IoT, la importancia de la optimización en servicios urbanos y la relevancia de integrar herramientas multidisciplinarias para resolver problemas reales. Este prototipo demuestra el potencial de las tecnologías móviles aplicadas a la gestión ambiental y sienta las bases para una futura implementación a gran escala.
