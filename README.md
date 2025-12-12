@@ -304,6 +304,7 @@ Los wireframes son representaciones de baja o media fidelidad que muestran la es
 
 
 * Detalle de Contenedor
+  
 ![Detalle de Contenedor](Prototipos/MovilMP/Frontend/Wireframes/detalle_contenedor.png)
 
 
@@ -320,6 +321,7 @@ Los wireframes son representaciones de baja o media fidelidad que muestran la es
 * About Us (Acerca de SmartWaste)
   
 ![About Us (Acerca de SmartWaste)](Prototipos/MovilMP/Frontend/Wireframes/acerca_de_nosotros.png)
+
 ---
 
 ## 🎨 Mockups
