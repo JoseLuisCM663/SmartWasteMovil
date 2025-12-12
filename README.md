@@ -200,46 +200,46 @@ Los sketches son dibujos rápidos hechos a mano que permiten visualizar las prim
 ![Splash Screen](Prototipos/MovilMP/Frontend/Sketches/SplashScreen.jpeg)
 
 * Registro de Usuario.
-![RegistroUsuario.jpeg](Prototipos\MovilMP\Frontend\Sketches\RegistroUsuario.jpeg)
+![RegistroUsuario.jpeg](Prototipos/MovilMP/Frontend/Sketches/RegistroUsuario.jpeg)
 
 * Predición de Eficiencia
-![Predición de Eficiencia](Prototipos\MovilMP\Frontend\Sketches\PrediciónEficiencia.jpeg)
+![Predición de Eficiencia](Prototipos/MovilMP/Frontend/Sketches/PrediciónEficiencia.jpeg)
 
 * Mapa
-![Mapa](Prototipos\MovilMP\Frontend\Sketches\Mapa.jpeg)
+![Mapa](Prototipos/MovilMP/Frontend/Sketches/Mapa.jpeg)
 
 * Login Screen
-![Login Screen](Prototipos\MovilMP\Frontend\Sketches\LoginScreen.jpeg)
+![Login Screen](Prototipos/MovilMP/Frontend/Sketches/LoginScreen.jpeg)
 
 * LoadingScreen
-![LoadingScreen](Prototipos\MovilMP\Frontend\Sketches\LoadingScreen.jpeg)
+![LoadingScreen](Prototipos/MovilMP/Frontend/Sketches/LoadingScreen.jpeg)
 
 * Historial de Lecturas
-![Historial de Lecturas](Prototipos\MovilMP\Frontend\Sketches\HistorialLecturas.jpeg)
+![Historial de Lecturas](Prototipos/MovilMP/Frontend/Sketches/HistorialLecturas.jpeg)
 
 * Gestion de Sensores
-![Gestion de Sensores](Prototipos\MovilMP\Frontend\Sketches\GestionSensores.jpeg)
+![Gestion de Sensores](Prototipos/MovilMP/Frontend/Sketches/GestionSensores.jpeg)
 
 * Gestión de Rutas
-![Gestión de Rutas](Prototipos\MovilMP\Frontend\Sketches\GestiónRutas.jpeg)
+![Gestión de Rutas](Prototipos/MovilMP/Frontend/Sketches/GestiónRutas.jpeg)
 
 * Gestión de Contenedores
-![Gestión de Contenedores](Prototipos\MovilMP\Frontend\Sketches\GestiónContenedores.jpeg)
+![Gestión de Contenedores](Prototipos/MovilMP/Frontend/Sketches/GestiónContenedores.jpeg)
 
 * Detalle de ruta
-![Detalle de ruta](Prototipos\MovilMP\Frontend\Sketches\Detalleruta.jpeg)
+![Detalle de ruta](Prototipos/MovilMP/Frontend/Sketches/Detalleruta.jpeg)
 
 * Detalle de Contenedor
-![Detalle de Contenedor](Prototipos\MovilMP\Frontend\Sketches\DetalleContenedor.jpeg)
+![Detalle de Contenedor](Prototipos/MovilMP/Frontend/Sketches/DetalleContenedor.jpeg)
 
 * Dashboard Principal
-![Dashboard Principal](Prototipos\MovilMP\Frontend\Sketches\DashboardPrincipal.jpeg)
+![Dashboard Principal](Prototipos/MovilMP/Frontend/Sketches/DashboardPrincipal.jpeg)
 
 * Bitacora de Recoleción
-![Bitacora de Recoleción](Prototipos\MovilMP\Frontend\Sketches\BitacoraRecoleción.jpeg)
+![Bitacora de Recoleción](Prototipos/MovilMP/Frontend/Sketches/BitacoraRecoleción.jpeg)
 
 * About Us (Acerca de SmartWaste)
-![About Us (Acerca de SmartWaste)](Prototipos\MovilMP\Frontend\Sketches\AboutUs.jpeg)
+![About Us (Acerca de SmartWaste)](Prototipos/MovilMP/Frontend/Sketches/AboutUs.jpeg)
 
 
 ---
@@ -248,56 +248,85 @@ Los sketches son dibujos rápidos hechos a mano que permiten visualizar las prim
 
 Los wireframes son representaciones de baja o media fidelidad que muestran la estructura funcional de cada pantalla. Se enfocan en la colocación de elementos, navegación y jerarquía visual, sin incluir colores finales ni diseño estético. Sirven como base para validar el funcionamiento y flujo del usuario.
 
+* Splash Screen
+  
+![Splash Screen](Prototipos/MovilMP/Frontend/Wireframes/Splash_Screen.png)
+
+
+* Registro de Usuario.
+  
+![RegistroUsuario.jpeg](Prototipos/MovilMP/Frontend/Wireframes/Registro_Usuario.png)
+
+
+* Predición de Eficiencia
+  
+![Predición de Eficiencia](Prototipos/MovilMP/Frontend/Wireframes/PrediciónEficiencia.png)
+
+
+* Mapa
+  
+![Mapa](Prototipos/MovilMP/Frontend/Wireframes/Mapa.png)
+
+
+* Login Screen
+  
+![Login Screen](Prototipos/MovilMP/Frontend/Wireframes/Login_Screen.png)
+
+
+* LoadingScreen
+  
+![LoadingScreen](Prototipos/MovilMP/Frontend/Wireframes/Loading_Screen.png)
+
+
+* Historial de Lecturas
+  
+![Historial de Lecturas](Prototipos/MovilMP/Frontend/Wireframes/Historial_Lecturas.png)
+
+
+* Gestion de Sensores
+  
+![Gestion de Sensores](Prototipos/MovilMP/Frontend/Wireframes/GestionSensores.png)
+
+
+* Gestión de Rutas
+  
+![Gestión de Rutas](Prototipos/MovilMP/Frontend/Wireframes/gestion_rutas.png)
+
+
+* Gestión de Contenedores
+  
+![Gestión de Contenedores](Prototipos/MovilMP/Frontend/Wireframes/GestionContenedores.png)
+
+
+* Detalle de ruta
+  
+![Detalle de ruta](Prototipos/MovilMP/Frontend/Wireframes/detalle_ruta.png)
+
+
+* Detalle de Contenedor
+![Detalle de Contenedor](Prototipos/MovilMP/Frontend/Wireframes/detalle_contenedor.png)
+
+
+* Dashboard Principal
+  
+![Dashboard Principal](Prototipos/MovilMP/Frontend/Wireframes/dashboard.png)
+
+
+* Bitacora de Recoleción
+  
+![Bitacora de Recoleción](Prototipos/MovilMP/Frontend/Wireframes/Bitacora_de_recoleccion.png)
+
+
+* About Us (Acerca de SmartWaste)
+  
+![About Us (Acerca de SmartWaste)](Prototipos/MovilMP/Frontend/Wireframes/acerca_de_nosotros.png)
 ---
 
 ## 🎨 Mockups
 
 Los mockups son diseños de alta fidelidad que muestran la apariencia visual final de la aplicación. Incluyen colores, tipografías, íconos, estilos y componentes reales. Permiten visualizar cómo se verá la app antes de programarla.
 
-* Splash Screen
-![Splash Screen](Prototipos\MovilMP\Frontend\Mockups\Splash_Screen.png)
 
-* Registro de Usuario.
-![RegistroUsuario.jpeg](Prototipos\MovilMP\Frontend\Mockups\Registro_Usuario.png)
-
-* Predición de Eficiencia
-![Predición de Eficiencia](Prototipos\MovilMP\Frontend\Mockups\PrediciónEficiencia.png)
-
-* Mapa
-![Mapa](Prototipos\MovilMP\Frontend\Mockups\Mapa.png)
-
-* Login Screen
-![Login Screen](Prototipos\MovilMP\Frontend\Mockups\LoginScreen.jpeg)
-
-* LoadingScreen
-![LoadingScreen](Prototipos\MovilMP\Frontend\Mockups\LoadingScreen.jpeg)
-
-* Historial de Lecturas
-![Historial de Lecturas](Prototipos\MovilMP\Frontend\Mockups\HistorialLecturas.jpeg)
-
-* Gestion de Sensores
-![Gestion de Sensores](Prototipos\MovilMP\Frontend\Mockups\GestionSensores.jpeg)
-
-* Gestión de Rutas
-![Gestión de Rutas](Prototipos\MovilMP\Frontend\Mockups\GestiónRutas.jpeg)
-
-* Gestión de Contenedores
-![Gestión de Contenedores](Prototipos\MovilMP\Frontend\Mockups\GestiónContenedores.jpeg)
-
-* Detalle de ruta
-![Detalle de ruta](Prototipos\MovilMP\Frontend\Mockups\Detalleruta.jpeg)
-
-* Detalle de Contenedor
-![Detalle de Contenedor](Prototipos\MovilMP\Frontend\Mockups\DetalleContenedor.jpeg)
-
-* Dashboard Principal
-![Dashboard Principal](Prototipos\MovilMP\Frontend\Mockups\DashboardPrincipal.jpeg)
-
-* Bitacora de Recoleción
-![Bitacora de Recoleción](Prototipos\MovilMP\Frontend\Mockups\BitacoraRecoleción.jpeg)
-
-* About Us (Acerca de SmartWaste)
-![About Us (Acerca de SmartWaste)](Prototipos\MovilMP\Frontend\Mockups\AboutUs.jpeg)
 ---
 
 ## 📱 Prototipo Navegacional
