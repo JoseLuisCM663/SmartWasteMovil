@@ -44,14 +44,14 @@ Diseñar e implementar un prototipo móvil que facilite la operación del sistem
 
 | Color                                                                                  | Código    | Uso en la App                              | Descripción                                                                              |
 | -------------------------------------------------------------------------------------- | --------- | ------------------------------------------ | ---------------------------------------------------------------------------------------- |
-| ![#6CBF57](https://via.placeholder.com/15/6CBF57/000000?text=+) **Verde Primario**     | `#6CBF57` | Botones principales, encabezados           | Representa sustentabilidad, ecología y eficiencia. Es el color dominante de la interfaz. |
-| ![#A5D6A7](https://via.placeholder.com/15/A5D6A7/000000?text=+) **Verde Secundario**   | `#A5D6A7` | Tarjetas, fondos suaves                    | Color complementario que ayuda a dar profundidad sin saturar la pantalla.                |
-| ![#2E7D32](https://via.placeholder.com/15/2E7D32/000000?text=+) **Verde Oscuro**       | `#2E7D32` | Iconos, indicadores de sensores activos    | Transmite estabilidad y profesionalismo.                                                 |
-| ![#F2F2F2](https://via.placeholder.com/15/F2F2F2/000000?text=+) **Gris Claro**         | `#F2F2F2` | Fondos, tarjetas, secciones informativas   | Evita distracciones y ayuda a la legibilidad.                                            |
-| ![#FFFFFF](https://via.placeholder.com/15/FFFFFF/000000?text=+) **Blanco**             | `#FFFFFF` | Fondo general                              | Refuerza limpieza y simplicidad visual.                                                  |
-| ![#000000](https://via.placeholder.com/15/000000/000000?text=+) **Negro**              | `#000000` | Textos principales                         | Máxima legibilidad sobre blancos y grises.                                               |
-| ![#FFCC00](https://via.placeholder.com/15/FFCC00/000000?text=+) **Amarillo de alerta** | `#FFCC00` | Indicadores de llenado medio o advertencia | Permite comunicar riesgo sin alarmar.                                                    |
-| ![#E74C3C](https://via.placeholder.com/15/E74C3C/000000?text=+) **Rojo Crítico**       | `#E74C3C` | Alertas de contenedor lleno o error        | Llama la atención inmediatamente.                                                        |
+|  **Verde Primario**     | `#6CBF57` | Botones principales, encabezados           | Representa sustentabilidad, ecología y eficiencia. Es el color dominante de la interfaz. |
+| **Verde Secundario**   | `#A5D6A7` | Tarjetas, fondos suaves                    | Color complementario que ayuda a dar profundidad sin saturar la pantalla.                |
+| **Verde Oscuro**       | `#2E7D32` | Iconos, indicadores de sensores activos    | Transmite estabilidad y profesionalismo.                                                 |
+| **Gris Claro**         | `#F2F2F2` | Fondos, tarjetas, secciones informativas   | Evita distracciones y ayuda a la legibilidad.                                            |
+|  **Blanco**             | `#FFFFFF` | Fondo general                              | Refuerza limpieza y simplicidad visual.                                                  |
+|  **Negro**              | `#000000` | Textos principales                         | Máxima legibilidad sobre blancos y grises.                                               |
+| **Amarillo de alerta** | `#FFCC00` | Indicadores de llenado medio o advertencia | Permite comunicar riesgo sin alarmar.                                                    |
+|  **Rojo Crítico**       | `#E74C3C` | Alertas de contenedor lleno o error        | Llama la atención inmediatamente.                                                        |
 
 
 ---
