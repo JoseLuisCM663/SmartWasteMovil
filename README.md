@@ -40,17 +40,44 @@ Diseñar e implementar un prototipo móvil que facilite la operación del sistem
 <HR>
 
 
-### Paleta de Colores
+## 🌈 **Paleta de Colores **
 
-* Verde #2ECC71 – Sustentabilidad
-* Azul #3498DB – Tecnología
-* Gris oscuro #2C3E50 – Profesionalismo
-* Blanco #ECF0F1 – Limpieza
+| Color                                                                                  | Código    | Uso en la App                              | Descripción                                                                              |
+| -------------------------------------------------------------------------------------- | --------- | ------------------------------------------ | ---------------------------------------------------------------------------------------- |
+| ![#6CBF57](https://via.placeholder.com/15/6CBF57/000000?text=+) **Verde Primario**     | `#6CBF57` | Botones principales, encabezados           | Representa sustentabilidad, ecología y eficiencia. Es el color dominante de la interfaz. |
+| ![#A5D6A7](https://via.placeholder.com/15/A5D6A7/000000?text=+) **Verde Secundario**   | `#A5D6A7` | Tarjetas, fondos suaves                    | Color complementario que ayuda a dar profundidad sin saturar la pantalla.                |
+| ![#2E7D32](https://via.placeholder.com/15/2E7D32/000000?text=+) **Verde Oscuro**       | `#2E7D32` | Iconos, indicadores de sensores activos    | Transmite estabilidad y profesionalismo.                                                 |
+| ![#F2F2F2](https://via.placeholder.com/15/F2F2F2/000000?text=+) **Gris Claro**         | `#F2F2F2` | Fondos, tarjetas, secciones informativas   | Evita distracciones y ayuda a la legibilidad.                                            |
+| ![#FFFFFF](https://via.placeholder.com/15/FFFFFF/000000?text=+) **Blanco**             | `#FFFFFF` | Fondo general                              | Refuerza limpieza y simplicidad visual.                                                  |
+| ![#000000](https://via.placeholder.com/15/000000/000000?text=+) **Negro**              | `#000000` | Textos principales                         | Máxima legibilidad sobre blancos y grises.                                               |
+| ![#FFCC00](https://via.placeholder.com/15/FFCC00/000000?text=+) **Amarillo de alerta** | `#FFCC00` | Indicadores de llenado medio o advertencia | Permite comunicar riesgo sin alarmar.                                                    |
+| ![#E74C3C](https://via.placeholder.com/15/E74C3C/000000?text=+) **Rojo Crítico**       | `#E74C3C` | Alertas de contenedor lleno o error        | Llama la atención inmediatamente.                                                        |
 
-### Tipografías
 
-* **Montserrat** – Títulos y encabezados
-* **Roboto** – Texto del cuerpo
+---
+
+## 🔤 **Tipografías Utilizadas**
+
+La tipografía es clave para transmitir profesionalismo y facilitar la lectura rápida del personal de campo.
+
+### **1. Montserrat (Encabezados y Títulos)**
+
+* Usada en menús, pantallas principales y secciones importantes.
+* Apariencia moderna y sólida.
+* Ideal para destacar elementos clave.
+* **Ejemplo:** “Gestión de Sensores”, “Detalle de Ruta”.
+
+### **2. Roboto (Cuerpo del Texto y Formularios)**
+
+* Usada en descripciones, formularios, notificaciones y botones pequeños.
+* Excelente legibilidad en pantallas móviles.
+* Ligera y versátil.
+* **Ejemplo:** textos debajo de los iconos, instrucciones, subtítulos.
+
+### **3. Iconografía (Material Icons / HeroIcons)**
+
+* Se emplean íconos minimalistas consistentes con el estilo moderno.
+* Íconos observables en: menú lateral, sensores, rutas y botones.
 
 ---
 
