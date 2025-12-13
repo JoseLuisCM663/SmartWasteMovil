@@ -171,28 +171,120 @@ La propuesta consiste en:
 
 ---
 
-## 📘 Requerimientos Funcionales
 
-1. RF01: Registrar usuarios con rol asignado.
-2. RF02: Iniciar sesión mediante JWT.
-3. RF03: Consultar lista de contenedores.
-4. RF04: Crear, modificar y eliminar contenedores.
-5. RF05: Consultar sensores y lecturas.
-6. RF06: Generar rutas de recolección.
-7. RF07: Mostrar rutas optimizadas al usuario.
-8. RF08: Recibir alertas por contenedores llenos.
-9. RF09: Registrar incidencias desde la app.
-10. RF10: Visualizar estadísticas en tiempo real.
+# 📘 Requerimientos Funcionales 
+
+A continuación se presentan los requerimientos funcionales del sistema SmartWasteMovil siguiendo el estándar **IEEE 830**, el cual establece una estructura clara, verificable y medible para especificar software.
 
 ---
 
-## 📗 Requerimientos No Funcionales
+## **1. Requerimientos Funcionales (RF)**
 
-1. RNF01: La app debe responder en menos de 500 ms.
-2. RNF02: La autenticación debe cumplir con estándares JWT.
-3. RNF03: Debe ser compatible con Android 8+.
-4. RNF04: El backend debe soportar 200 solicitudes simultáneas.
-5. RNF05: El almacenamiento de datos debe ser seguro y cifrado.
+### **RF01 – Gestión de Usuarios**
+
+**Descripción:** El sistema deberá permitir el registro de usuarios con roles previamente definidos.
+**Entrada:** Nombre, correo, contraseña, rol.
+**Salida:** Confirmación del registro.
+**Prioridad:** Alta.
+**Dependencias:** Ninguna.
+
+### **RF02 – Autenticación mediante JWT**
+
+**Descripción:** El sistema deberá permitir el inicio de sesión usando tokens JWT.
+**Entrada:** Correo y contraseña.
+**Salida:** Token JWT válido.
+**Prioridad:** Alta.
+**Dependencias:** RF01.
+
+### **RF03 – Consulta de Contenedores**
+
+**Descripción:** El sistema deberá permitir visualizar una lista de contenedores registrados.
+**Entrada:** Solicitud del usuario.
+**Salida:** Lista de contenedores.
+**Prioridad:** Media.
+
+### **RF04 – CRUD de Contenedores**
+
+**Descripción:** El sistema deberá permitir crear, modificar y eliminar contenedores.
+**Entrada:** Datos del contenedor.
+**Salida:** Confirmación de operación.
+**Prioridad:** Alta.
+
+### **RF05 – Consulta de Sensores y Lecturas**
+
+**Descripción:** El sistema deberá permitir consultar sensores y sus lecturas registradas.
+**Entrada:** Solicitud del usuario.
+**Salida:** Lista de sensores y lecturas.
+**Prioridad:** Alta.
+
+### **RF06 – Generación de Rutas de Recolección**
+
+**Descripción:** El sistema deberá generar rutas de recolección basadas en los niveles de llenado.
+**Entrada:** Solicitud del supervisor.
+**Salida:** Ruta sugerida.
+**Prioridad:** Alta.
+
+### **RF07 – Visualización de Rutas Optimizadas**
+
+**Descripción:** La app móvil deberá mostrar rutas optimizadas al personal de recolección.
+**Entrada:** Token y solicitud.
+**Salida:** Ruta visual.
+**Prioridad:** Alta.
+
+### **RF08 – Alertas de Contenedores Llenos**
+
+**Descripción:** El sistema debe enviar alertas cuando un contenedor supere cierto umbral.
+**Entrada:** Lectura del sensor.
+**Salida:** Notificación push.
+**Prioridad:** Alta.
+
+### **RF09 – Registro de Incidencias**
+
+**Descripción:** El usuario podrá registrar incidencias del servicio.
+**Entrada:** Foto, descripción, ubicación.
+**Salida:** Confirmación del registro.
+**Prioridad:** Media.
+
+### **RF10 – Visualización de Estadísticas en Tiempo Real**
+
+**Descripción:** El sistema deberá mostrar datos estadísticos dinámicos.
+**Entrada:** Solicitud del usuario.
+**Salida:** Panel con métricas.
+**Prioridad:** Media.
+
+---
+
+# 📗 Requerimientos No Funcionales
+
+### **RNF01 – Rendimiento del Sistema**
+
+**Descripción:** La app deberá responder a cualquier acción del usuario en menos de 500 ms.
+**Tipo:** Rendimiento.
+**Prioridad:** Alta.
+
+### **RNF02 – Estándares de Seguridad JWT**
+
+**Descripción:** El sistema deberá implementar estándares JWT actualizados para autenticación.
+**Tipo:** Seguridad.
+**Prioridad:** Alta.
+
+### **RNF03 – Compatibilidad con Android**
+
+**Descripción:** La app deberá ser compatible con Android 8 o superior.
+**Tipo:** Portabilidad.
+**Prioridad:** Media.
+
+### **RNF04 – Capacidad de Peticiones Concurrentes**
+
+**Descripción:** El backend debe soportar al menos 200 solicitudes simultáneas.
+**Tipo:** Rendimiento / Escalabilidad.
+**Prioridad:** Alta.
+
+### **RNF05 – Almacenamiento Seguro**
+
+**Descripción:** Todos los datos sensibles deben ser cifrados antes de almacenarse.
+**Tipo:** Seguridad.
+**Prioridad:** Alta.
 
 ---
 
@@ -549,7 +641,109 @@ Link de Figma: [https://www.figma.com/design/kSlMuqNKcfwQZLgKeLq3T7/SmartWasteMo
 ---
 
 ## 🔗 API
+La **API SmartWaste** es el núcleo backend del sistema SmartWaste, desarrollada bajo una arquitectura **RESTful** utilizando **FastAPI**. Su función principal es centralizar, procesar y exponer la información generada por sensores IoT, rutas de recolección, contenedores y usuarios, permitiendo la comunicación eficiente entre la aplicación móvil, el panel web y la base de datos.
 
+La API está diseñada para ser **escalable, segura y de alto rendimiento**, siguiendo buenas prácticas de desarrollo de software y estándares modernos de autenticación.
+
+---
+
+## 🏗️ Arquitectura y Tecnologías
+
+* **Framework:** FastAPI (Python)
+* **Base de Datos:** MySQL
+* **ORM:** SQLAlchemy
+* **Autenticación:** JWT (JSON Web Tokens)
+* **Documentación:** Swagger UI / ReDoc (autogenerada)
+* **Formato de datos:** JSON
+
+La arquitectura sigue el patrón **MVC / Clean Architecture**, separando claramente:
+
+* Rutas (endpoints)
+* Controladores (lógica de negocio)
+* Modelos (entidades de base de datos)
+
+---
+
+## 🔐 Seguridad y Autenticación
+
+La API implementa un sistema de **autenticación basada en JWT**, garantizando que solo usuarios autorizados puedan acceder a los recursos.
+
+Flujo de autenticación:
+
+1. El usuario inicia sesión enviando credenciales válidas.
+2. La API genera un **token JWT** firmado.
+3. El token se envía en el encabezado `Authorization: Bearer <token>`.
+4. Los endpoints protegidos validan el token antes de responder.
+
+Las contraseñas se almacenan de forma segura utilizando **hashing con bcrypt**, evitando el almacenamiento de datos sensibles en texto plano.
+
+---
+
+## 📌 Endpoints Principales
+
+### 👤 Usuarios
+
+* Registro de usuarios con roles
+* Inicio de sesión (JWT)
+* Gestión de permisos
+
+### 🗑️ Contenedores
+
+* Crear contenedores
+* Listar contenedores
+* Actualizar información
+* Eliminar contenedores
+
+### 📟 Sensores y Lecturas
+
+* Registro de sensores IoT
+* Consulta de lecturas en tiempo real
+* Historial de datos por contenedor
+
+### 🛣️ Rutas de Recolección
+
+* Generación de rutas
+* Asignación de rutas a recolectores
+* Optimización basada en nivel de llenado
+
+### ⚠️ Incidencias
+
+* Registro de incidencias desde la app móvil
+* Consulta de incidencias
+* Seguimiento de estatus
+
+---
+
+## 📊 Funcionamiento General
+
+1. Los **sensores IoT** envían lecturas de llenado a la API.
+2. La API procesa y almacena los datos en la base de datos.
+3. Se evalúan umbrales para generar **alertas automáticas**.
+4. El sistema sugiere **rutas óptimas de recolección**.
+5. La aplicación móvil y el dashboard consumen los datos en tiempo real.
+
+---
+
+## 🧪 Pruebas y Validación
+
+La API fue validada mediante **pruebas manuales con Insomnia**, comprobando:
+
+* Creación, lectura, actualización y eliminación (CRUD)
+* Autenticación JWT
+* Respuestas correctas en formato JSON
+* Manejo adecuado de errores
+
+---
+
+## 📈 Escalabilidad y Mantenimiento
+
+La API está preparada para:
+
+* Soportar múltiples clientes simultáneos
+* Integrarse con servicios externos
+* Escalar horizontalmente
+* Facilitar mantenimiento y nuevas funcionalidades
+  
 Repositorio Backend: [https://github.com/JoseLuisCM663/Smartwaste_Api](https://github.com/JoseLuisCM663/Smartwaste_Api)
 
 ---
