@@ -1,4 +1,4 @@
-# SmartWasteMovil – Documentación Completa
+# SmartWasteMovil
 
 Versión móvil del sistema SmartWaste para la gestión de residuos urbanos.
 
